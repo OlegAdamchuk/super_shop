@@ -1,0 +1,33 @@
+{% extends "shopapp/base.html" %}
+
+{% block title %}
+  Оформление заказа
+{% endblock %}
+
+{% block content %}
+  <h1>Оформление заказа</h1>
+    <div class="row">
+        <div class="col-sm-5">
+            <h2>Заполните форму</h2>
+            <form class="post-form" action="." method="post">
+                {% csrf_token %}
+                <table class="table table-borderless">
+                    {{ form.as_table }}
+                </table>
+                <button type="submit" class="btn btn-success">Отправить</button>
+            </form>
+        </div>
+        <div class="col-sm-7">
+
+            <h2>Ваш заказ</h2>
+            <ul>
+              {% for item in cart  %}
+                <li>
+                  {{ item.product.title }} | Количество: {{ item.quantity }} | Цена: {{ item.total_price }} грн.
+                </li>
+              {% endfor %}
+            </ul>
+            <p><strong>Всего:</strong> {{ cart.get_total_price|floatformat:"2"}} грн.</p>
+        </div>
+    </div>
+{% endblock %}

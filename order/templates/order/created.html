@@ -1,0 +1,11 @@
+{% extends "shopapp/base.html" %}
+
+{% block title %}
+  Спасибо за заказ
+{% endblock %}
+
+{% block content %}
+  <h1>Спасибо за заказ</h1>
+  <p>Идентификатор вашего заказа: {{ order.id }}</p>
+    <h2>Менеджер с вами свяжется чтобы подтвердть заказ.</h2>
+{% endblock %}

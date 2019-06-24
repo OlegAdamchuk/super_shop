@@ -1,0 +1,1659 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add brand",
+    "content_type": 8,
+    "codename": "add_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change brand",
+    "content_type": 8,
+    "codename": "change_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete brand",
+    "content_type": 8,
+    "codename": "delete_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view brand",
+    "content_type": 8,
+    "codename": "view_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 9,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 9,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 9,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 9,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add cart",
+    "content_type": 10,
+    "codename": "add_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change cart",
+    "content_type": 10,
+    "codename": "change_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete cart",
+    "content_type": 10,
+    "codename": "delete_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view cart",
+    "content_type": 10,
+    "codename": "view_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add cart item",
+    "content_type": 11,
+    "codename": "add_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change cart item",
+    "content_type": 11,
+    "codename": "change_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete cart item",
+    "content_type": 11,
+    "codename": "delete_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view cart item",
+    "content_type": 11,
+    "codename": "view_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add \u0417\u0430\u043a\u0430\u0437",
+    "content_type": 12,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change \u0417\u0430\u043a\u0430\u0437",
+    "content_type": 12,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete \u0417\u0430\u043a\u0430\u0437",
+    "content_type": 12,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view \u0417\u0430\u043a\u0430\u0437",
+    "content_type": 12,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 13,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 13,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 13,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 13,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$T8Max5HsyTXm$GxSQMzgNeiK6KC9RKxgVUMJiIz9xFeM3CNHUUdz61EQ=",
+    "last_login": "2019-06-22T21:56:04.839Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-05-29T21:37:27.250Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6du49f67ngxqszxs33falk9i0o3wn8e8",
+  "fields": {
+    "session_data": "ODcwMTUyZWM4OGYyNjIxODI5YmI0NDcxNTRlZTYzMzQ5MmVlMmViZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyMjcwYmQ3NTJkODFkMzY3Y2E0YzRlMTViM2U3NWY2MmIzODRlMDk3In0=",
+    "expire_date": "2019-06-12T21:37:41.947Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jf59goymgrxkw5h78njtqvgwqrbzzogt",
+  "fields": {
+    "session_data": "ODcwMTUyZWM4OGYyNjIxODI5YmI0NDcxNTRlZTYzMzQ5MmVlMmViZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyMjcwYmQ3NTJkODFkMzY3Y2E0YzRlMTViM2U3NWY2MmIzODRlMDk3In0=",
+    "expire_date": "2019-06-18T21:01:43.793Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qn16tiarrw806eu4wpsu6112l0zxnvaa",
+  "fields": {
+    "session_data": "NGQ0MmY3YjBiMjY0M2EyODMzODBmOTdlNjQ3YjQwODAyYmI1MTZmNzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyMjcwYmQ3NTJkODFkMzY3Y2E0YzRlMTViM2U3NWY2MmIzODRlMDk3IiwiY2FydF9pZCI6NiwidG90YWwiOjEsImNhcnQiOnsiaXBob25lLXgtNjRnYiI6eyJxdWFudGl0eSI6NywicHJpY2UiOiIyNDk5OS4wMCJ9LCIyIjp7InF1YW50aXR5IjoyLCJwcmljZSI6IjI0OTk5LjAwIn19fQ==",
+    "expire_date": "2019-07-05T15:01:12.672Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "reqjtzp5qdoj7axjxb33nvz1huhsgjse",
+  "fields": {
+    "session_data": "NGUzZjY3ZTAzYTVjNjI0OTNiYWZhZmVjZWFmOWI1YzE0MjEwZjg5Yjp7ImNhcnQiOnsiMiI6eyJxdWFudGl0eSI6MSwicHJpY2UiOiIyNDk5OS4wMCJ9LCIzIjp7InF1YW50aXR5IjoxLCJwcmljZSI6IjI5OTk5LjAwIn19fQ==",
+    "expire_date": "2019-07-05T15:09:15.351Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "s2tcs1yrptuwa79u3y8v6ktdkugif7rz",
+  "fields": {
+    "session_data": "NDhmNmJhNzM3OTZmZDE5Mzg1ZTk5Y2NmOWQ1MGRmYTEzODVhNzUwNTp7ImNhcnQiOnt9fQ==",
+    "expire_date": "2019-07-07T12:09:12.187Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u6i7o9h2hzmspbms421a7eeyx1ahs0pq",
+  "fields": {
+    "session_data": "NDhmNmJhNzM3OTZmZDE5Mzg1ZTk5Y2NmOWQ1MGRmYTEzODVhNzUwNTp7ImNhcnQiOnt9fQ==",
+    "expire_date": "2019-07-06T21:49:03.865Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "un78gvky7k5yx9u3wup7kplplyhq0ara",
+  "fields": {
+    "session_data": "MzhmZmJjYmNmY2RiOTljZDZiMGQ5Y2I1NGY0NzVjNTRhYTk2ZjRhNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyMjcwYmQ3NTJkODFkMzY3Y2E0YzRlMTViM2U3NWY2MmIzODRlMDk3Iiwib3JkZXJfaWQiOjEwLCJjYXJ0Ijp7fX0=",
+    "expire_date": "2019-07-07T14:51:03.754Z"
+  }
+},
+{
+  "model": "shopapp.category",
+  "pk": 1,
+  "fields": {
+    "name": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438",
+    "slug": "laptops"
+  }
+},
+{
+  "model": "shopapp.category",
+  "pk": 2,
+  "fields": {
+    "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+    "slug": "smartphones"
+  }
+},
+{
+  "model": "shopapp.brand",
+  "pk": 1,
+  "fields": {
+    "name": "Apple"
+  }
+},
+{
+  "model": "shopapp.brand",
+  "pk": 6,
+  "fields": {
+    "name": "Xiaomi"
+  }
+},
+{
+  "model": "shopapp.product",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "brand": 1,
+    "title": "IPhone X 64GB",
+    "slug": "iphone-x-64gb",
+    "short_desc": "\u0420\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430 \u0411\u0435\u0437\u0440\u0430\u043c\u043e\u0447\u043d\u044b\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439, 5,8\"\r\n\u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u041c\u043f 12,0 \u041c\u043f + 12,0 \u041c\u043f\r\n\u0424\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u041c\u043f 7,0 \u041c\u043f\r\n\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 Apple A11\r\n\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044f\u0434\u0435\u0440 6 \u044f\u0434\u0435\u0440\r\n\u041e\u0431\u044a\u0435\u043c \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 3 \u0413\u0431",
+    "long_desc": "<p><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u041a\u043e\u0440\u043f\u0443\u0441</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043a\u043e\u0440\u043f\u0443\u0441\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041c\u0435\u0442\u0430\u043b\u043b, \u0421\u0442\u0435\u043a\u043b\u043e</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u043b\u0430\u0433\u043e\u0437\u0430\u0449\u0438\u0442\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IP67</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0413\u0430\u0431\u0430\u0440\u0438\u0442\u044b (\u0412\u0445\u0428\u0445\u0413)</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 143,6 \u0445 70,9 \u0445 7,7 \u043c\u043c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u0435\u0441</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 174 \u0433</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0426\u0432\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0435\u0440\u044b\u0439</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0442\u0438\u043b\u0443\u0441</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0414\u0438\u0441\u043f\u043b\u0435\u0439</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f \u044d\u043a\u0440\u0430\u043d\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OLED</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0411\u0435\u0437\u0440\u0430\u043c\u043e\u0447\u043d\u044b\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439, 5,8\"</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u0441\u0442\u043e\u0440\u043e\u043d</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19,5:9</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Super Retina-HD</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d\u0430, PX</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2436 x 1125</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u043f\u0438\u043a\u0441\u0435\u043b\u0435\u0439, PPI</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 458</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0446\u0432\u0435\u0442\u043e\u0432 \u0434\u0438\u0441\u043f\u043b\u0435\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16 \u043c\u043b\u043d</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d/\u043a\u043e\u0440\u043f\u0443\u0441</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 82,9%</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u041a\u0430\u043c\u0435\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u041c\u043f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12,0 \u041c\u043f + 12,0 \u041c\u043f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0438\u0430\u0444\u0440\u0430\u0433\u043c\u0430 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043a\u0430\u043c\u0435\u0440\u044b</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f/1,8 + f/2,4</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0424\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u041c\u043f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7,0 \u041c\u043f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043c\u043e\u0434\u0443\u043b\u0435\u0439 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043a\u0430\u043c\u0435\u0440\u044b</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0410\u0432\u0442\u043e\u0444\u043e\u043a\u0443\u0441\u0438\u0440\u043e\u0432\u043a\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u0430\u044f \u0432\u0441\u043f\u044b\u0448\u043a\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0442\u0430\u0431\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043a\u0430\u043c\u0435\u0440\u044b</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0428\u0438\u0440\u043e\u043a\u043e\u0443\u0433\u043e\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043a\u0442\u0438\u0432: \u0434\u0438\u0430\u0444\u0440\u0430\u0433\u043c\u0430 &fnof;/1.8; \u0422\u0435\u043b\u0435\u043e\u0431\u044a\u0435\u043a\u0442\u0438\u0432: \u0434\u0438\u0430\u0444\u0440\u0430\u0433\u043c\u0430 &fnof;/2.4; \u041e\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0437\u0443\u043c; 10-\u043a\u0440\u0430\u0442\u043d\u044b\u0439 \u0446\u0438\u0444\u0440\u043e\u0432\u043e\u0439 \u0437\u0443\u043c; \u0420\u0435\u0436\u0438\u043c &laquo;\u041f\u043e\u0440\u0442\u0440\u0435\u0442&raquo;; \u041f\u043e\u0440\u0442\u0440\u0435\u0442\u043d\u043e\u0435 \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0435 (\u0431\u0435\u0442\u0430-\u0432\u0435\u0440\u0441\u0438\u044f); \u0414\u0432\u043e\u0439\u043d\u0430\u044f \u043e\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441\u0442\u0430\u0431\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f; \u0428\u0435\u0441\u0442\u0438\u043b\u0438\u043d\u0437\u043e\u0432\u044b\u0439 \u043e\u0431\u044a\u0435\u043a\u0442\u0438\u0432; \u0412\u0441\u043f\u044b\u0448\u043a\u0430 True Tone Quad-LED \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 Slow Sync; \u041f\u0430\u043d\u043e\u0440\u0430\u043c\u043d\u0430\u044f \u0441\u044a\u0435\u043c\u043a\u0430 (\u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c \u0434\u043e 63 \u041c\u043f); \u0417\u0430\u0449\u0438\u0442\u0430 \u043e\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u0430 \u0441\u0430\u043f\u0444\u0438\u0440\u043e\u0432\u044b\u043c \u0441\u0442\u0435\u043a\u043b\u043e\u043c; \u0421\u0435\u043d\u0441\u043e\u0440 BSI; \u0413\u0438\u0431\u0440\u0438\u0434\u043d\u044b\u0439 \u0418\u041a-\u0444\u0438\u043b\u044c\u0442\u0440; \u0410\u0432\u0442\u043e\u0444\u043e\u043a\u0443\u0441 \u0441 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0435\u0439 Focus Pixels; \u0424\u043e\u043a\u0443\u0441\u0438\u0440\u043e\u0432\u043a\u0430 \u043a\u0430\u0441\u0430\u043d\u0438\u0435\u043c \u0438 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Focus Pixels; Live Photos \u0441\u043e \u0441\u0442\u0430\u0431\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u0435\u0439 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f; \u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u044b\u0439 \u0446\u0432\u0435\u0442\u043e\u0432\u043e\u0439 \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d \u0434\u043b\u044f \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0439 \u0438 Live Photos; \u0423\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0439 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c \u043c\u0435\u0441\u0442\u043d\u043e\u0439 \u0442\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u043a\u043e\u043c\u043f\u0440\u0435\u0441\u0441\u0438\u0438; \u0420\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u0435 \u043b\u0438\u0446 \u0438 \u0444\u0438\u0433\u0443\u0440; \u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u044d\u043a\u0441\u043f\u043e\u0437\u0438\u0446\u0438\u0438; \u0428\u0443\u043c\u043e\u043f\u043e\u0434\u0430\u0432\u043b\u0435\u043d\u0438\u0435; \u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 HDR \u043f\u0440\u0438 \u0444\u043e\u0442\u043e\u0441\u044a\u0435\u043c\u043a\u0435; \u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441\u0442\u0430\u0431\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f; \u0421\u0435\u0440\u0438\u0439\u043d\u0430\u044f \u0441\u044a\u0435\u043c\u043a\u0430; \u0420\u0435\u0436\u0438\u043c \u0442\u0430\u0439\u043c\u0435\u0440\u0430; \u041f\u0440\u0438\u0432\u044f\u0437\u043a\u0430 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0439 \u043a \u043c\u0435\u0441\u0442\u0443 \u0441\u044a\u0435\u043c\u043a\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apple A11</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044f\u0434\u0435\u0440</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 \u044f\u0434\u0435\u0440</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u0438\u0434\u0435\u043e\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0441\u043a\u043e\u0440\u0438\u0442\u0435\u043b\u044c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d \u0434\u043b\u044f \u0433\u0435\u0439\u043c\u0438\u043d\u0433\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u041f\u0430\u043c\u044f\u0442\u044c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0431\u044a\u0435\u043c \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 \u0413\u0431</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0431\u044a\u0435\u043c \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 64 \u0413\u0431</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u043b\u043e\u0442 \u0434\u043b\u044f \u043a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f \u043a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043c \u043a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iOS</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iOS 11</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0421\u0432\u044f\u0437\u044c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f \u0441\u0432\u044f\u0437\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4G (LTE)</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043c\u044b\u0435 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u044b \u0441\u0432\u044f\u0437\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GSM/EDGE: 850/900/1800/1900 \u041c\u0413\u0446; UMTS/HSPA+/DC-HSDPA: 850/900/1700/1900/2100; LTE</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e SIM-\u043a\u0430\u0440\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 SIM</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f SIM-\u043a\u0430\u0440\u0442\u044b</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nano-SIM</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0413\u0438\u0431\u0440\u0438\u0434\u043d\u044b\u0439 \u0441\u043b\u043e\u0442 SIM-\u043a\u0430\u0440\u0442\u0430/\u043a\u0430\u0440\u0442\u0430 \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GPS, \u0413\u041b\u041e\u041d\u0410\u0421\u0421, Galileo, iBeacon, QZSS</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0438 \u0434\u0430\u0442\u0447\u0438\u043a\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wi-Fi</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wi-Fi Direct</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bluetooth</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442 Bluetooth</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5,0</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IrDA</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NFC</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f ANT+</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Miracast</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0435\u043d\u0441\u043e\u0440\u044b \u0438 \u0434\u0430\u0442\u0447\u0438\u043a\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Face ID; \u0411\u0430\u0440\u043e\u043c\u0435\u0442\u0440; \u0422\u0440\u0435\u0445\u043e\u0441\u0435\u0432\u043e\u0439 \u0433\u0438\u0440\u043e\u0441\u043a\u043e\u043f; \u0410\u043a\u0441\u0435\u043b\u0435\u0440\u043e\u043c\u0435\u0442\u0440; \u0414\u0430\u0442\u0447\u0438\u043a \u043f\u0440\u0438\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f; \u0414\u0430\u0442\u0447\u0438\u043a \u0432\u043d\u0435\u0448\u043d\u0435\u0439 \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u043d\u043e\u0441\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0411\u0438\u043e\u043c\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0437\u0430\u0449\u0438\u0442\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u043a\u0430\u043d\u0435\u0440 \u043b\u0438\u0446\u0430 Face Unlock (Face ID)</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0410\u0443\u0434\u0438\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u044b\u0445\u043e\u0434 \u043d\u0430 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lightning</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FM-\u0440\u0430\u0434\u0438\u043e</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0442\u0435\u0440\u0435\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u043e\u0441\u0442\u044c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0415\u043c\u043a\u043e\u0441\u0442\u044c \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2716 \u043c\u0410\u0447</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Li-Ion</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u044b \u043f\u0440\u0438 \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0438 \u0432\u0438\u0434\u0435\u043e: \u0414\u043e 13 \u0447\u0430\u0441\u043e\u0432; \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u044b \u043f\u0440\u0438 \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0438 \u0430\u0443\u0434\u0438\u043e: \u0414\u043e 60 \u0447\u0430\u0441\u043e\u0432; \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u044b \u0432 \u0440\u0435\u0436\u0438\u043c\u0435 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0430: \u0414\u043e 21 \u0447\u0430\u0441\u043e\u0432; \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u043e\u043c: \u0414\u043e 12 \u0447\u0430\u0441\u043e\u0432</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u044a\u0435\u043c \u0417\u0423</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lightning</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0424\u0443\u043d\u043a\u0446\u0438\u044f \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u043e\u0439 \u0437\u0430\u0440\u044f\u0434\u043a\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0424\u0443\u043d\u043a\u0446\u0438\u044f \u0431\u044b\u0441\u0442\u0440\u043e\u0439 \u0437\u0430\u0440\u044f\u0434\u043a\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0435\u0440\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iPhone X (2017)</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u0435\u0440\u0441\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2017</span></p>",
+    "image": "iphone-x-64gb/iphone-x-64gb.jpg",
+    "price": "24999.00",
+    "availability": true
+  }
+},
+{
+  "model": "shopapp.product",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "brand": 1,
+    "title": "MacBook Air 13'' 128Gb",
+    "slug": "macbook-air-13-128gb",
+    "short_desc": "\u0420\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430 13,3\"<br>\r\n\u0422\u0438\u043f \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430 Intel Core i5<br>\r\n\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044f\u0434\u0435\u0440 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430 2<br>\r\n\u0420\u0430\u0437\u043c\u0435\u0440 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 8 \u0413\u0431<br>\r\n\u041e\u0431\u044a\u0435\u043c SSD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f 128 \u0413\u0431<br>\r\n\u041e\u0431\u044a\u0435\u043c HDD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f \u041d\u0435\u0442<br>",
+    "long_desc": "<p><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0425\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0434\u0438\u0441\u043f\u043b\u0435\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13,3\"</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1440 x 900</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u044c \u0434\u0438\u0441\u043f\u043b\u0435\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0413\u043b\u044f\u043d\u0446\u0435\u0432\u0430\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0435\u043d\u0441\u043e\u0440\u043d\u044b\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0423\u0434\u043e\u0431\u0441\u0442\u0432\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u043e\u0440\u043f\u0443\u0441\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0410\u043b\u044e\u043c\u0438\u043d\u0438\u0439</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u0430 \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u044b</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0411\u044b\u0441\u0442\u0440\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Intel Core i5</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044f\u0434\u0435\u0440 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0411\u0430\u0437\u043e\u0432\u0430\u044f \u0447\u0430\u0441\u0442\u043e\u0442\u0430 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,8 \u0413\u0413\u0446</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u043e\u0442\u0430 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2,9 \u0413\u0413\u0446</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LPDDR3</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0427\u0430\u0441\u0442\u043e\u0442\u0430 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1600 \u041c\u0413\u0446</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u043c\u0435\u0440 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 \u0413\u0431</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u043c\u0435\u0440 \u043f\u0430\u043c\u044f\u0442\u0438 Intel Optane</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; macOS High Sierra</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0423\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0431\u044a\u0435\u043c SSD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 128 \u0413\u0431</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0431\u044a\u0435\u043c HDD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0431\u044a\u0435\u043c eMMC-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0431\u044a\u0435\u043c SSHD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0413\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0432\u0438\u0434\u0435\u043e\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Intel</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u0438\u0434\u0435\u043e\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Intel HD Graphics 6000</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f \u0432\u0438\u0434\u0435\u043e\u0430\u0434\u0430\u043f\u0442\u0435\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0418\u043d\u0442\u0435\u0433\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u043c\u0435\u0440 \u0432\u0438\u0434\u0435\u043e\u043f\u0430\u043c\u044f\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0418\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USB 2.0</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USB 3.0</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 x Type-A</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USB 3.1</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thunderbolt 2</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 \u0448\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LAN \u0440\u0430\u0437\u044a\u0435\u043c (RJ45)</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HDMI</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u044a\u0435\u043c \u0434\u043b\u044f \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u043e\u0432 3.5 \u043c\u043c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0420\u0430\u0437\u044a\u0435\u043c \u0434\u043b\u044f \u043a\u0430\u0440\u0442 SD/SDHC/SDXC</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u0430\u044f web-\u043a\u0430\u043c\u0435\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0439 \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u0440\u0438\u0432\u043e\u0434</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041d\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0411\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bluetooth</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bluetooth 4.0</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wi-Fi</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 802.11ac</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0410\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u0438\u043f \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Li-Pol</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0415\u043c\u043a\u043e\u0441\u0442\u044c \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 54 \u0412\u0442\u0447</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u043e\u0441\u0442\u044c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u043e 12 \u0447\u0430\u0441\u043e\u0432 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0432\u043a\u043b\u044e\u0447\u0451\u043d\u043d\u044b\u043c \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u043c \u0434\u043e\u0441\u0442\u0443\u043f\u043e\u043c; \u0414\u043e 12 \u0447\u0430\u0441\u043e\u0432 \u043f\u0440\u0438 \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0438 \u0444\u0438\u043b\u044c\u043c\u043e\u0432 \u0432 iTunes; \u0414\u043e 30 \u0434\u043d\u0435\u0439 \u0432 \u0440\u0435\u0436\u0438\u043c\u0435 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp; \u0413\u0430\u0431\u0430\u0440\u0438\u0442\u044b \u0438 \u0446\u0432\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0414\u043b\u0438\u043d\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 32,5 \u0441\u043c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0428\u0438\u0440\u0438\u043d\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 22,7 \u0441\u043c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0422\u043e\u043b\u0449\u0438\u043d\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,7 \u0441\u043c</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0412\u0435\u0441</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,35 \u043a\u0433</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0426\u0432\u0435\u0442</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0435\u0440\u0435\u0431\u0440\u043e</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MacBook; \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u043f\u0438\u0442\u0430\u043d\u0438\u044f; \u041a\u0430\u0431\u0435\u043b\u044c \u043f\u0438\u0442\u0430\u043d\u0438\u044f; \u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041a\u0430\u043c\u0435\u0440\u0430: HD-\u043a\u0430\u043c\u0435\u0440\u0430 FaceTime 720p; \u0410\u0443\u0434\u0438\u043e: \u0421\u0442\u0435\u0440\u0435\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438, \u0441\u0434\u0432\u043e\u0435\u043d\u043d\u044b\u0435 \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d\u044b; \u0414\u0430\u0442\u0447\u0438\u043a \u0432\u043d\u0435\u0448\u043d\u0435\u0439 \u043e\u0441\u0432\u0435\u0449\u0451\u043d\u043d\u043e\u0441\u0442\u0438; \u0422\u0440\u0435\u043a\u043f\u0430\u0434 Multi\u2011Touch \u0434\u043b\u044f \u0442\u043e\u0447\u043d\u043e\u0433\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043a\u0443\u0440\u0441\u043e\u0440\u043e\u043c; \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u0438\u043d\u0435\u0440\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u043f\u0440\u043e\u043a\u0440\u0443\u0442\u043a\u0438, \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f, \u043f\u043e\u0432\u043e\u0440\u043e\u0442\u0430, \u0441\u043c\u0430\u0445\u0438\u0432\u0430\u043d\u0438\u044f \u043e\u0434\u043d\u0438\u043c, \u0442\u0440\u0435\u043c\u044f \u0438\u043b\u0438 \u0447\u0435\u0442\u044b\u0440\u044c\u043c\u044f \u043f\u0430\u043b\u044c\u0446\u0430\u043c\u0438, \u043e\u0434\u0438\u043d\u0430\u0440\u043d\u043e\u0433\u043e \u0438 \u0434\u0432\u043e\u0439\u043d\u043e\u0433\u043e \u043a\u0430\u0441\u0430\u043d\u0438\u044f, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043f\u0435\u0440\u0435\u0442\u0430\u0441\u043a\u0438\u0432\u0430\u043d\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u041b\u0438\u043d\u0435\u0439\u043a\u0430</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MacBook Air</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \u0421\u0435\u0440\u0438\u044f</span><br /><span style=\"font-size: 8pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MacBook Air 2017</span></p>",
+    "image": "macbook-air-13-128gb/macbook-air-13-128gb.jpg",
+    "price": "29999.00",
+    "availability": true
+  }
+},
+{
+  "model": "shopapp.product",
+  "pk": 4,
+  "fields": {
+    "category": 2,
+    "brand": 6,
+    "title": "Xiaomi Redmi 6A 2/16Gb",
+    "slug": "xiaomi-redmi-6a-216gb",
+    "short_desc": "\u0420\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430 5,45\"<br>\r\n\u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u041c\u043f 13,0 \u041c\u043f<br>\r\n\u0424\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u041c\u043f 5,0 \u041c\u043f<br>\r\n\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 MediaTek Helio A22<br>\r\n\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044f\u0434\u0435\u0440 4 \u044f\u0434\u0440\u0430<br>\r\n\u041e\u0431\u044a\u0435\u043c \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 2 \u0413\u0431<br>",
+    "long_desc": "<ul class=\"characteristics\">\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u041a\u043e\u0440\u043f\u0443\u0441</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043a\u043e\u0440\u043f\u0443\u0441\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041f\u043b\u0430\u0441\u0442\u0438\u043a</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u043b\u0430\u0433\u043e\u0437\u0430\u0449\u0438\u0442\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0413\u0430\u0431\u0430\u0440\u0438\u0442\u044b (\u0412\u0445\u0428\u0445\u0413)</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">147,5 \u0445 71,5 \u0445 8,3 \u043c\u043c</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u0435\u0441</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">145 \u0433</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0426\u0432\u0435\u0442</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0427\u0435\u0440\u043d\u044b\u0439</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u0442\u0438\u043b\u0443\u0441</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0414\u0438\u0441\u043f\u043b\u0435\u0439</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u044d\u043a\u0440\u0430\u043d\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">IPS</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">5,45\"</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u0441\u0442\u043e\u0440\u043e\u043d</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">18:9</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">HD+</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d\u0430, PX</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">1440 \u0445 720</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u043f\u0438\u043a\u0441\u0435\u043b\u0435\u0439, PPI</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">295</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0446\u0432\u0435\u0442\u043e\u0432 \u0434\u0438\u0441\u043f\u043b\u0435\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">16 \u043c\u043b\u043d</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d/\u043a\u043e\u0440\u043f\u0443\u0441</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">72,7%</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u041a\u0430\u043c\u0435\u0440\u0430</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u041c\u043f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">13,0 \u041c\u043f</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0414\u0438\u0430\u0444\u0440\u0430\u0433\u043c\u0430 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043a\u0430\u043c\u0435\u0440\u044b</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">f/2,2</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0424\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u041c\u043f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">5,0 \u041c\u043f</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043c\u043e\u0434\u0443\u043b\u0435\u0439 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043a\u0430\u043c\u0435\u0440\u044b</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">1</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0410\u0432\u0442\u043e\u0444\u043e\u043a\u0443\u0441\u0438\u0440\u043e\u0432\u043a\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u0430\u044f \u0432\u0441\u043f\u044b\u0448\u043a\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0432\u0438\u0434\u0435\u043e\u0441\u044a\u0451\u043c\u043a\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Full HD (1920 x 1080), 30fps</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043a\u0430\u043c\u0435\u0440\u044b</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0438\u0430\u0444\u0440\u0430\u0433\u043c\u0430: f/2.2; PDAF; HDR; \u041f\u043e\u0440\u0442\u0440\u0435\u0442\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c; \u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Smart Beauty; \u0420\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u0435 \u043b\u0438\u0446</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">MediaTek Helio A22</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044f\u0434\u0435\u0440</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">4 \u044f\u0434\u0440\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0427\u0430\u0441\u0442\u043e\u0442\u0430 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2,0 \u0413\u0413\u0446</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u0438\u0434\u0435\u043e\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">PowerVR GE8320</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u041f\u0430\u043c\u044f\u0442\u044c</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0431\u044a\u0435\u043c \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2 \u0413\u0431</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0431\u044a\u0435\u043c \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">16 \u0413\u0431</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u043b\u043e\u0442 \u0434\u043b\u044f \u043a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u043a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">MicroSD (TransFlash)</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043c \u043a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">256 \u0413\u0431</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Android</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Android 8.1 Oreo</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0421\u0432\u044f\u0437\u044c</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u0441\u0432\u044f\u0437\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2G, 3G, 4G (LTE)</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e SIM-\u043a\u0430\u0440\u0442</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2 SIM</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f SIM-\u043a\u0430\u0440\u0442\u044b</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Nano-SIM</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0413\u0438\u0431\u0440\u0438\u0434\u043d\u044b\u0439 \u0441\u043b\u043e\u0442 SIM-\u043a\u0430\u0440\u0442\u0430/\u043a\u0430\u0440\u0442\u0430 \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">GPS, A-GPS, \u0413\u041b\u041e\u041d\u0410\u0421\u0421</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0438 \u0434\u0430\u0442\u0447\u0438\u043a\u0438</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">Wi-Fi Direct</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">Bluetooth</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442 Bluetooth</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">4,2</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">NFC</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f ANT+</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Miracast</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u0435\u043d\u0441\u043e\u0440\u044b \u0438 \u0434\u0430\u0442\u0447\u0438\u043a\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0410\u043a\u0441\u0435\u043b\u0435\u0440\u043e\u043c\u0435\u0442\u0440; \u0414\u0430\u0442\u0447\u0438\u043a \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u044f; \u0414\u0430\u0442\u0447\u0438\u043a \u043f\u0440\u0438\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f; \u041a\u043e\u043c\u043f\u0430\u0441</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0411\u0438\u043e\u043c\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0437\u0430\u0449\u0438\u0442\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0410\u0443\u0434\u0438\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u044b\u0445\u043e\u0434 \u043d\u0430 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">3,5 \u043c\u043c</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">FM-\u0440\u0430\u0434\u0438\u043e</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u0442\u0435\u0440\u0435\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u043e\u0441\u0442\u044c</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0415\u043c\u043a\u043e\u0441\u0442\u044c \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">3000 \u043c\u0410\u0447</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Li-Ion</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u044a\u0435\u043c \u0417\u0423</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Micro USB</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0424\u0443\u043d\u043a\u0446\u0438\u044f \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u043e\u0439 \u0437\u0430\u0440\u044f\u0434\u043a\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0424\u0443\u043d\u043a\u0446\u0438\u044f \u0431\u044b\u0441\u0442\u0440\u043e\u0439 \u0437\u0430\u0440\u044f\u0434\u043a\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u0435\u0440\u0438\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Xiaomi Redmi 6A</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u0435\u0440\u0441\u0438\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2018</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d; USB \u043a\u0430\u0431\u0435\u043b\u044c; \u0417\u0430\u0440\u044f\u0434\u043d\u043e\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e; \u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n</ul>",
+    "image": "xiaomi-redmi-6a-216gb/xiaomi-redmi-6a-216gb.jpg",
+    "price": "2699.00",
+    "availability": true
+  }
+},
+{
+  "model": "shopapp.product",
+  "pk": 5,
+  "fields": {
+    "category": 1,
+    "brand": 6,
+    "title": "Xiaomi Mi Notebook Pro 15.6\" i5 8/256Gb",
+    "slug": "xiaomi-mi-notebook-pro-156-i5-8256gb",
+    "short_desc": "\u0420\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430 15,6\"\r\n    \u0422\u0438\u043f \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430 Intel Core i5-8250U\r\n    \u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044f\u0434\u0435\u0440 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430 4\r\n    \u0420\u0430\u0437\u043c\u0435\u0440 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 8 \u0413\u0431\r\n    \u041e\u0431\u044a\u0435\u043c SSD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f 256 \u0413\u0431\r\n    \u041e\u0431\u044a\u0435\u043c HDD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f \u041d\u0435\u0442",
+    "long_desc": "<ul class=\"characteristics\">\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0425\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0434\u0438\u0441\u043f\u043b\u0435\u044f</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">15,6\"</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">1920 x 1080</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u0434\u0438\u0441\u043f\u043b\u0435\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">IPS</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u044c \u0434\u0438\u0441\u043f\u043b\u0435\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0413\u043b\u044f\u043d\u0446\u0435\u0432\u0430\u044f</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u0435\u043d\u0441\u043e\u0440\u043d\u044b\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0423\u0434\u043e\u0431\u0441\u0442\u0432\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u043a\u043e\u0440\u043f\u0443\u0441\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041c\u0435\u0442\u0430\u043b\u043b</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u0430 \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u044b</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u042f\u0437\u044b\u043a \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u044b (\u043a\u043b\u0430\u0432\u0438\u0448)</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, \u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0438\u0439</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0411\u044b\u0441\u0442\u0440\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Intel Core i5-8250U</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044f\u0434\u0435\u0440 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">4</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0411\u0430\u0437\u043e\u0432\u0430\u044f \u0447\u0430\u0441\u0442\u043e\u0442\u0430 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">1,6 \u0413\u0413\u0446</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u043e\u0442\u0430 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">3,4 \u0413\u0413\u0446</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">DDR4</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0427\u0430\u0441\u0442\u043e\u0442\u0430 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2400 \u041c\u0413\u0446</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u043c\u0435\u0440 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">8&nbsp;\u0413\u0431</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u043c\u0435\u0440 \u043f\u0430\u043c\u044f\u0442\u0438 Intel Optane</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Windows 10 Home</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0423\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0431\u044a\u0435\u043c SSD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">256 \u0413\u0431</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0431\u044a\u0435\u043c HDD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0431\u044a\u0435\u043c eMMC-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0431\u044a\u0435\u043c SSHD-\u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0413\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0432\u0438\u0434\u0435\u043e\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">NVIDIA</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u0438\u0434\u0435\u043e\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">NVIDIA GeForce MX150</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u0432\u0438\u0434\u0435\u043e\u0430\u0434\u0430\u043f\u0442\u0435\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0438\u0441\u043a\u0440\u0435\u0442\u043d\u044b\u0439</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u043c\u0435\u0440 \u0432\u0438\u0434\u0435\u043e\u043f\u0430\u043c\u044f\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2 \u0413\u0431</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0418\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">USB 2.0</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">USB 3.0</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2 x Type-A</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">USB 3.1</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">2 x Type-C</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">Thunderbolt 2</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">LAN \u0440\u0430\u0437\u044a\u0435\u043c (RJ45)</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">HDMI</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">1 \u0448\u0442</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u044a\u0435\u043c \u0434\u043b\u044f \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u043e\u0432 3.5 \u043c\u043c</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0420\u0430\u0437\u044a\u0435\u043c \u0434\u043b\u044f \u043a\u0430\u0440\u0442 SD/SDHC/SDXC</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u0430\u044f web-\u043a\u0430\u043c\u0435\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0439 \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u0430</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043f\u0440\u0438\u0432\u043e\u0434</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u0435\u0442</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0411\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">Bluetooth</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Bluetooth 4.1</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">Wi-Fi</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">802.11ac</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0410\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u0438\u043f \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Li-Ion</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0415\u043c\u043a\u043e\u0441\u0442\u044c \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">60 \u0412\u0442\u0447</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0410\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u043e\u0441\u0442\u044c</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0414\u043e 9 \u0447\u0430\u0441\u043e\u0432</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n<li class=\"items\">\r\n<h3 class=\"items__title\"><span style=\"font-size: 8pt;\">\u0413\u0430\u0431\u0430\u0440\u0438\u0442\u044b \u0438 \u0446\u0432\u0435\u0442</span></h3>\r\n<ul>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0414\u043b\u0438\u043d\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">24,36 \u0441\u043c</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0428\u0438\u0440\u0438\u043d\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">36,07 \u0441\u043c</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0422\u043e\u043b\u0449\u0438\u043d\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">1,59 \u0441\u043c</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0412\u0435\u0441</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">1,95 \u043a\u0433</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0426\u0432\u0435\u0442</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0421\u0435\u0440\u044b\u0439</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u041d\u043e\u0443\u0442\u0431\u0443\u043a; \u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u043f\u0438\u0442\u0430\u043d\u0438\u044f; \u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">\u0421\u043a\u0430\u043d\u0435\u0440 \u043e\u0442\u043f\u0435\u0447\u0430\u0442\u043a\u0430 \u043f\u0430\u043b\u044c\u0446\u0430; \u0417\u0432\u0443\u043a \u043e\u0442 Harman Infinity; \u041a\u0430\u043c\u0435\u0440\u0430 1 \u041c\u043f \u0441 HD-\u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c; \u0426\u0438\u0444\u0440\u043e\u0432\u043e\u0439 \u043c\u0438\u043a\u0440\u043e\u0444\u043e\u043d; \u041f\u043e\u043b\u043d\u043e\u0440\u0430\u0437\u043c\u0435\u0440\u043d\u0430\u044f \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430 \u0441 \u043f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u043e\u0439, 3 \u0440\u0435\u0436\u0438\u043c\u0430 \u043f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u0438; \u0421\u0442\u0435\u043a\u043b\u044f\u043d\u043d\u044b\u0439 \u0442\u0440\u0435\u043a\u043f\u0430\u0434 \u0434\u043b\u044f \u0442\u043e\u0447\u043d\u043e\u0433\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043a\u0443\u0440\u0441\u043e\u0440\u043e\u043c \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0436\u0435\u0441\u0442\u0430\u043c\u0438; \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u0431\u044b\u0441\u0442\u0440\u043e\u0439 \u0437\u0430\u0440\u044f\u0434\u043a\u0438 (50% \u0437\u0430\u0440\u044f\u0434\u043a\u0438 \u043d\u043e\u0443\u0442\u0431\u0443\u043a\u0430 \u0437\u0430 35 \u043c\u0438\u043d\u0443\u0442. \u0412\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u0432\u0438\u0434\u0435\u043e - 6 \u0447\u0430\u0441\u043e\u0432, \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0438\u0434\u0435\u043e - 9 \u0447\u0430\u0441\u043e\u0432, \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0432\u0435\u0431-\u0441\u0442\u0440\u0430\u043d\u0438\u0446 - 8 \u0447\u0430\u0441\u043e\u0432); \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u0432\u0438\u0434\u0435\u043e: 1080p (\u0434\u043e 60 \u0413\u0446), 4K (60 \u0413\u0446). \u0412\u044b\u0432\u043e\u0434 \u0446\u0438\u0444\u0440\u043e\u0432\u043e\u0433\u043e \u0432\u0438\u0434\u0435\u043e \u043d\u0430 \u0442\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440, \u043c\u043e\u043d\u0438\u0442\u043e\u0440</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u041b\u0438\u043d\u0435\u0439\u043a\u0430</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Mi Notebook</span></div>\r\n</li>\r\n<li class=\"item\">\r\n<div class=\"item__label\"><span style=\"font-size: 8pt;\">\u0421\u0435\u0440\u0438\u044f</span></div>\r\n<div class=\"item__value\"><span style=\"font-size: 8pt;\">Mi Notebook Pro</span></div>\r\n</li>\r\n</ul>\r\n</li>\r\n</ul>",
+    "image": "xiaomi-mi-notebook-pro-156-i5-8256gb/xiaomi-mi-notebook-pro-156-i5-8256gb.jpg",
+    "price": "27999.00",
+    "availability": true
+  }
+},
+{
+  "model": "order.order",
+  "pk": 9,
+  "fields": {
+    "first_name": "123",
+    "last_name": "123",
+    "email": "123@123.net",
+    "address": "123",
+    "postal_code": "123",
+    "city": "123",
+    "created": "2019-06-23T12:21:12.822Z",
+    "updated": "2019-06-23T12:21:12.822Z",
+    "paid": false
+  }
+},
+{
+  "model": "order.order",
+  "pk": 10,
+  "fields": {
+    "first_name": "123",
+    "last_name": "234234",
+    "email": "123@123.net",
+    "address": "123",
+    "postal_code": "123",
+    "city": "123",
+    "created": "2019-06-23T12:28:14.863Z",
+    "updated": "2019-06-23T12:28:14.863Z",
+    "paid": false
+  }
+},
+{
+  "model": "order.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 9,
+    "product": 2,
+    "price": "24999.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "order.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 10,
+    "product": 2,
+    "price": "24999.00",
+    "quantity": 4
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2019-05-30T10:13:02.021Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2019-05-30T10:13:17.032Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2019-05-30T10:15:39.448Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0444\u0438\u0437\u043e\u0440\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2019-05-30T10:18:07.875Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2019-05-30T10:20:52.037Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Apple",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2019-05-30T10:20:59.190Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Asus",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2019-05-30T10:21:05.818Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Acer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2019-05-30T10:21:15.324Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Sony",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2019-05-30T10:21:27.348Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Samsung",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2019-05-30T13:03:52.015Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2019-05-30T13:21:00.259Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2019-05-30T13:23:23.870Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2019-05-30T13:31:45.468Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2019-05-30T13:43:22.404Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2019-05-30T13:44:05.427Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2019-05-30T13:45:45.893Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2019-05-30T13:46:53.944Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2019-05-30T13:49:51.336Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2019-05-30T14:00:23.695Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"price\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2019-05-30T14:27:40.257Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2019-06-04T21:26:00.688Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2019-06-04T21:26:52.108Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2019-06-04T21:33:00.206Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_desc\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2019-06-04T21:36:02.237Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"short_desc\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2019-06-04T21:38:21.984Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u044b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2019-06-04T21:38:31.328Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2019-06-04T21:39:44.332Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Samsung",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2019-06-04T21:39:44.352Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Sony",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2019-06-04T21:39:44.367Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Acer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2019-06-04T21:39:44.389Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Asus",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2019-06-04T21:39:57.298Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Xiaomi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2019-06-04T21:42:21.581Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Xiaomi Redmi 6A 2/16Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2019-06-04T21:48:55.253Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Xiaomi Mi Notebook Pro 15.6\" i5 8/256Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2019-06-05T20:30:00.948Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"availability\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2019-06-05T20:33:48.372Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"availability\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2019-06-05T20:35:10.183Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"availability\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2019-06-06T08:33:53.382Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2019-06-06T08:33:58.863Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"availability\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2019-06-06T08:45:40.635Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2019-06-07T11:54:10.987Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Cart item for product IPhone X 64GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2019-06-07T11:55:23.837Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Cart item for product IPhone X 64GB",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2019-06-07T11:55:32.021Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2019-06-07T13:59:25.042Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Cart item for product Xiaomi Redmi 6A 2/16Gb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2019-06-07T13:59:25.141Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Cart item for product IPhone X 64GB",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2019-06-07T13:59:25.224Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Cart item for product MacBook Air 13'' 128Gb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2019-06-07T13:59:33.754Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2019-06-07T13:59:33.849Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2019-06-07T14:16:42.255Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2019-06-07T14:16:51.468Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Cart item for product IPhone X 64GB",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2019-06-11T11:05:13.433Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2019-06-11T11:05:29.054Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Cart item for product Xiaomi Mi Notebook Pro 15.6\" i5 8/256Gb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2019-06-11T11:05:29.163Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Cart item for product Xiaomi Redmi 6A 2/16Gb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2019-06-11T11:05:29.257Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Cart item for product IPhone X 64GB",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2019-06-11T11:05:29.350Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Cart item for product MacBook Air 13'' 128Gb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2019-06-11T11:26:57.647Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"availability\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2019-06-11T11:26:57.867Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Xiaomi Redmi 6A 2/16Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"availability\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2019-06-11T11:27:20.025Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"availability\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2019-06-11T11:27:20.275Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Xiaomi Redmi 6A 2/16Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"availability\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2019-06-11T11:56:00.526Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2019-06-11T12:13:26.348Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Cart item for product IPhone X 64GB",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2019-06-11T13:38:16.018Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Xiaomi Mi Notebook Pro 15.6\" i5 8/256Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"long_desc\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2019-06-11T13:38:31.323Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"long_desc\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2019-06-11T13:38:46.426Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "MacBook Air 13'' 128Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"long_desc\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2019-06-11T13:38:56.836Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Xiaomi Redmi 6A 2/16Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"long_desc\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2019-06-21T14:06:53.266Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "IPhone X 64GB",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2019-06-22T22:16:58.063Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"paid\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2019-06-22T22:25:04.445Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2019-06-22T22:25:12.832Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2019-06-22T22:42:39.646Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2019-06-22T22:42:39.662Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2019-06-22T22:42:39.675Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2019-06-22T22:48:59.096Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2019-06-22T22:53:14.561Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2019-06-23T12:06:01.490Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 8",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"paid\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2019-06-23T12:06:22.521Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "\u0417\u0430\u043a\u0430\u0437: 8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

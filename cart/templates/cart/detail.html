@@ -1,0 +1,51 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+  Ваша корзина товаров
+{% endblock %}
+
+{% block content %}
+
+<h3 class="text-center">Ваша корзина</h3>
+<table class="table">
+    <tr>
+        <td class="text-center"><p class="font-weight-bold">Товар</p></td>
+        <td class="text-center"><p class="font-weight-bold">Цена</p></td>
+        <td class="text-center"><p class="font-weight-bold">Сумма</p></td>
+        <td class="text-center"><p class="font-weight-bold">Кол-во</p></td>
+        <td class="text-center"><p class="font-weight-bold">Удалить</p></td>
+        <td class="text-center"></td>
+    </tr>
+{% for item in cart %}
+    {% with product=item.product %}
+        <tr>
+            <td class="text-center"><p class="font-italic">{{ product.title }}</p></td>
+            <td class="text-center"><p class="font-italic">{{ item.product.price }} грн.</p></td>
+            <td class="text-center"><p class="font-italic">{{ item.total_price }} грн.</p></td>
+            <td class="text-center">
+                <form action="{% url 'cart:cart_add' product.id %}" method="post" class="add">
+                    {% csrf_token %}
+                    {{ item.update_quantity_form.quantity }}
+                    {{ item.update_quantity_form.update }}
+                    <button type="submit" class="btn btn-primary">Обновить</button>
+                </form>
+            </td>
+            <td class="text-center"><p class="font-italic"><a href="{% url 'cart:cart_remove' product.id %}" class="btn btn-danger" role="button">Удалить</a></p></td>
+            <td class="text-center"></td>
+        </tr>
+    {% endwith %}
+{% endfor %}
+    <tr>
+        <td>Общая сумма</td>
+        <td colspan="4"></td>
+        <td>{{ cart.get_total_price }} грн.</td>
+    </tr>
+
+</table>
+<p class="text-right">
+<a href="{% url 'base' %}" class="btn btn-primary">Продолжить Шопинг</a>
+{% if cart|length > 0 %}
+    <a href="{% url 'order:order_create' %}" class="btn btn-info">Оформить заказ</a>
+{% endif %}
+</p>
+{% endblock content %}

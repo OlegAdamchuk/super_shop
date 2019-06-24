@@ -1,0 +1,26 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+  {{ category.name }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="col-sm-12">
+        <h2>{{ category.name }}</h2>
+        <hr>
+        <div class="row">
+            {% for product in products_category %}
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <a href="{{ product.get_abs_url }}"><img class="card-img-top" src="{{ product.image.url }}" alt=""></a>
+                        <div class="card-body">
+                            <a href="{{ product.get_abs_url }}"><h4 class="card-title">{{ product.title }}</h4></a>
+                            <p><strong>Цена: {{ product.price }} грн.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock content %}
