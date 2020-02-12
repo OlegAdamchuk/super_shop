@@ -1,4 +1,4 @@
-Django==2.2.1
+Django==2.2.10
 django-autoslug==1.9.4
 django-tinymce4-lite==1.7.5
 entrypoints==0.3
